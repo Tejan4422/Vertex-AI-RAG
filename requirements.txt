@@ -1,0 +1,9 @@
+functions-framework==3.*
+pandas
+requests
+google-cloud-storage
+google-auth
+vertexai
+functions-framework
+google-cloud-discoveryengine
+openpyxl
