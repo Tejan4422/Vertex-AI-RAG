@@ -78,14 +78,10 @@ The function supports Excel files with the following column names:
 - Maximum 3 reference sources per response
 - Answers are limited to 100-200 words
 
-## Contributing
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
-## License
-[Add your chosen license here]
 
 ## Authors
-[Add your name/organization here]
+Tejan Gavandi
 
 ## Acknowledgments
 - Google Vertex AI

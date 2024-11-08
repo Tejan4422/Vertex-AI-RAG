@@ -95,8 +95,7 @@ def get_chat_response(chat: ChatSession, prompt: str) -> str:
 
 # Function to call the Discovery Engine API
 def call_discovery_engine(query_text, query_id=""):
-    url = "https://discoveryengine.googleapis.com/v1alpha/projects/994544669142/locations/global/collections/default_collection/engines/rfp-agent_1722488765661/servingConfigs/default_search:answer"
-
+    url = "" # Update with your Discovery Engine URL
     access_token = get_access_token()
     headers = {
         "Authorization": f"Bearer {access_token}",
@@ -134,7 +133,6 @@ def call_discovery_engine(query_text, query_id=""):
 
 """
 def call_discovery_engine(query_text, query_id=""):
-    url = "https://discoveryengine.googleapis.com/v1alpha/projects/994544669142/locations/global/collections/default_collection/engines/rfp-agent_1722488765661/servingConfigs/default_search:answer"
     access_token = get_access_token()
     headers = {
         "Authorization": f"Bearer {access_token}",
